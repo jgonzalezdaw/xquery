@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="motorblog">
+	<table_structure name="autores">
+		<field Field="id_autor" Type="int(11)" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="login" Type="varchar(60)" Null="NO" Key="" Default="" Extra="" Comment="" />
+		<field Field="password" Type="varchar(64)" Null="NO" Key="" Default="" Extra="" Comment="" />
+		<field Field="correo" Type="varchar(100)" Null="NO" Key="" Default="" Extra="" Comment="" />
+		<field Field="url" Type="varchar(100)" Null="NO" Key="" Default="" Extra="" Comment="" />
+		<options Name="autores" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="6" Avg_row_length="76" Data_length="456" Max_data_length="281474976710655" Index_length="1024" Data_free="0" Create_time="2015-01-20 15:03:58" Update_time="2015-01-20 15:03:58" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="autores">
+	<row>
+		<field name="id_autor">0</field>
+		<field name="login">Admin</field>
+		<field name="password">$P$BsBU6yXiRqj4z/v5clMOZtPW4X4Rk2.</field>
+		<field name="correo">admin@sierra.com</field>
+		<field name="url">sierra.com</field>
+	</row>
+	<row>
+		<field name="id_autor">1</field>
+		<field name="login">autor1</field>
+		<field name="password">*7690E1C4AE37D9615D6FA2253D8531C41C75935C</field>
+		<field name="correo">user1@gmail.com</field>
+		<field name="url"></field>
+	</row>
+	<row>
+		<field name="id_autor">2</field>
+		<field name="login">autor3</field>
+		<field name="password">*00E51BDA212FC637010BD1D6C88FB4FF6E943A17</field>
+		<field name="correo">user3@yahoo.es</field>
+		<field name="url"></field>
+	</row>
+	<row>
+		<field name="id_autor">3</field>
+		<field name="login">autor4</field>
+		<field name="password">*EE9EFFF4C611992D1605A4032F949C8EF0C0EC52</field>
+		<field name="correo">USER4@HOTMAIL.COM</field>
+		<field name="url"></field>
+	</row>
+	<row>
+		<field name="id_autor">4</field>
+		<field name="login">autor5</field>
+		<field name="password">*9258306A5B686558DFB493926A71CEFB237AA73F</field>
+		<field name="correo">user5@gmail.com</field>
+		<field name="url"></field>
+	</row>
+	<row>
+		<field name="id_autor">5</field>
+		<field name="login">autor2</field>
+		<field name="password">*7599C026EEA6105A90FF3F1E1BA326CDE0A7C784</field>
+		<field name="correo">user2@gmail.com</field>
+		<field name="url"></field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
